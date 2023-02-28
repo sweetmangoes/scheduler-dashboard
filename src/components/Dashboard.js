@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Loading from "./Loading";
-
+import Panel from "./Panel";
 import classnames from "classnames";
 
 class Dashboard extends Component {
   state = {
     loading: false
   };
+
 
   render() {
     const dashboardClasses = classnames("dashboard");
